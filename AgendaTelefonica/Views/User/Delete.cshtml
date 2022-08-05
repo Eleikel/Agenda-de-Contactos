@@ -1,0 +1,30 @@
+﻿@using AgendaTelefonica.Core.Application.ViewModels.User;
+@model SaveUserViewModel
+@{
+    ViewData["Title"] = "Delete Contact";
+}
+
+
+
+<div class="row">
+    <div class="card text-center shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="col-6 offset-3">
+
+            <div class="card-header">
+                Alerta!
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller="User" asp-action="DeletePost">
+                    <input type="hidden" asp-for="Id" />
+
+                    <h5 class="card-title">Esta seguro que desea eliminar a @Model.Name de tus contactos?</h5>
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                    <a asp-controller="User" asp-action="Index" class="btn btn-warning">Cancelar</a>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

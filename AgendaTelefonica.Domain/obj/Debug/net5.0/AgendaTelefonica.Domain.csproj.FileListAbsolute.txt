@@ -1,0 +1,12 @@
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\bin\Debug\net5.0\AgendaTelefonica.Domain.deps.json
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\bin\Debug\net5.0\AgendaTelefonica.Domain.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\bin\Debug\net5.0\AgendaTelefonica.Domain.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.AssemblyInfoInputs.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.AssemblyInfo.cs
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\refint\AgendaTelefonica.Domain.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\AgendaTelefonica.Domain.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Domain\obj\Debug\net5.0\ref\AgendaTelefonica.Domain.dll

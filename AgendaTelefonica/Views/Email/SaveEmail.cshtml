@@ -1,0 +1,40 @@
+﻿@using AgendaTelefonica.Core.Application.ViewModels.Email;
+@model SaveEmailViewModel
+@{
+    ViewData["Title"] = "Guardar Email";
+}
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-header purple">
+                    <h4 class="text-center ">Añadir Email </h4>
+                </div>
+                <div class="card-body">
+
+                    <form method="post" asp-controller="Email" asp-action="Create">
+
+                        <div class="mb-3">
+                            <label asp-for="EmailAddress" class="form-label">Correo Electronico: </label>
+                            <input type="email" asp-for="EmailAddress" class="form-control" />
+                            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                        </div>
+
+                        @*<input type="hidden" asp-for="Id" />*@
+                        <input type="hidden" asp-for="UserId" />
+
+                        <button type="submit" class="btn boton">Guardar</button>
+                        <a asp-controller="User" asp-action="Index" class="btn btn-warning">Volver atras</a>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

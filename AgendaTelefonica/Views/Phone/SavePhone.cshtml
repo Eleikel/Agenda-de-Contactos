@@ -1,0 +1,40 @@
+﻿@using AgendaTelefonica.Core.Application.ViewModels.Phone;
+@model SavePhoneViewModel
+@{
+    ViewData["Title"] = "Guardar Phone";
+}
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-header purple text-light">
+                    <h4 class="text-center ">Añadir Telefono </h4>
+                </div>
+                <div class="card-body">
+
+                    <form method="post" asp-controller="Phone" asp-action="Create">
+
+                        <div class="mb-3">
+                            <label asp-for="PhoneNumber" class="form-label">Numero de Telefono: </label>
+                            <input type="tel" asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        @*<input type="hidden" asp-for="Id" />*@
+                        <input type="hidden" asp-for="UserId" />
+
+                        <button type="submit" class="btn boton">Guardar</button>
+                        <a asp-controller="User" asp-action="Index" class="btn btn-warning">Volver atras</a>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

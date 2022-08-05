@@ -1,0 +1,46 @@
+﻿@using AgendaTelefonica.Core.Application.ViewModels.Email;
+@model List<EmailViewModel>
+@{
+    ViewData["Title"] = "Emails";
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <h2 class="display-6">Lista de Correos registrado por @ViewBag.Name </h2>
+
+        @foreach (EmailViewModel item in Model)
+        {
+
+            <div class="col-4">
+                <div class="widget lazur-bg p-xl">
+                    <h2>@item.UserName @item.UserLastName</h2>
+                    <ul class="list-unstyled m-t-md">
+                        <li>
+                            <span class="fa fa-envelope m-r-xs"></span>
+                            <label>Email:</label>
+                            @item.EmailAddress
+                        </li>
+
+                    </ul>
+                    <div class="btn-group">
+                        @if (Model.Count() != 1)
+                        {
+                            <a asp-controller="Email" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-dark">Eliminar</a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+        }
+
+    </div>
+
+</div>
+
+
+
+
+
+
+

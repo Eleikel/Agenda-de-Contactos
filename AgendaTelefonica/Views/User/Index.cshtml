@@ -1,0 +1,180 @@
+﻿@using AgendaTelefonica.Core.Application.ViewModels.Phone
+@using AgendaTelefonica.Core.Application.ViewModels.User;
+@model List<UserViewModel>
+@{
+    ViewData["Title"] = "Users";
+}
+
+
+<div class="container">
+    <div class="row ">
+
+
+        <br />
+        <div class="col-9 col-md-10 col-lg-8">
+            <form class="card card-sm" class="form-inline my-2 my-lg-0" asp-controller="User" method="get">
+                <div class="card-body row no-gutters align-items-center">
+                    <div class="col-auto">
+                        <i class="fas fa-search h4 text-body"></i>
+                    </div>
+                    <div class="col">
+                        <input class="form-control form-control-lg form-control-borderless" ttype="search" name="Name" id="Name" aria-label="Search" placeholder="Buscar Nombre de contactos">
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-lg btn-success" name="Name" value="Buscar" id="Name" type="submit">Search</button>
+                        <a class="btn btn-lg btn-warning " asp-action="Index"> Ver Todos</a>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-3 mt-3">
+            <a asp-controller="User" asp-action="Create" class="btn boton">Agregar nuevo contacto</a>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+@if (Model == null || Model.Count == 0)
+{
+    <h2 class="text-center mt-5">No se encontro ningun contacto </h2>
+}
+else
+{
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center purple-word display-5 mt-4 mb-5">Mis Contactos</h1>
+                <div class="main-box no-header clearfix">
+                    <div class="main-box-body clearfix">
+                        <div class="starter-template">
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table user-list">
+
+                                <thead>
+                                    <tr>
+                                        <th><h4>Contacto</h4></th>
+                                        <th><h4>Cedula</h4></th>
+                                        <th><h4>Dirección</h4></th>
+                                        <th><h4>Email</h4></th>
+                                        <th><h4>Telefono</h4></th>
+
+                                        <th><h4>Acciones</h4></th>
+                                    </tr>
+                                </thead>
+                                @foreach (UserViewModel item in Model)
+                                {
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <h4 class="text-primary mb-2">@item.Name  @item.LastName</h4>
+                                                <div class="d-flex-column">
+                                                    <p class="user-subhead text-muted">Telefonos: @item.PhonesQuantities</p>
+                                                    <p class="user-subhead text-muted">Correos: @item.EmailQuantities</p>
+                                                </div>
+
+                                            </td>
+                                            <td>
+                                                <i class="fas fa-id-card"></i>
+                                                @item.DocumentId
+                                            </td>
+                                            <td style="width: 10%;">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <span class="label label-default">@item.Address</span>
+                                            </td>
+                                            <td>
+
+
+
+                                                @foreach (var email in item.Emails)
+                                                {
+                                                    @if (email.UserId == item.Id)
+                                                    {
+                                                        <i class="fas fa-envelope"></i>
+                                                        <a class="text-info text-decoration-none">@email.EmailAddress</a>
+                                                        <br />
+                                                    }
+                                                }
+
+                                            </td>
+                                            <td>
+
+                                                @foreach (var phone in item.Phones)
+                                                {
+                                                    @if (phone.UserId == item.Id)
+                                                    {
+                                                        <i class="fas fa-phone"></i>
+                                                        <a class="text-danger text-decoration-none">@phone.PhoneNumber</a>
+                                                        <br />
+                                                    }
+                                                }
+
+                                            </td>
+
+                                            <td style="width: 10%;">
+
+                                                <div class="d-flex w-100">
+
+                                                    <div class="m-1">
+
+                                                        <a asp-controller="User" asp-action="Edit" asp-route-id="@item.Id" class="table-link text-info">
+                                                            <span class="fa-stack">
+                                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                                <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+
+
+                                                    <div class="m-1">
+                                                        <a asp-controller="User" asp-action="Delete" asp-route-id="@item.Id" class="table-link danger">
+                                                            <span class="fa-stack">
+                                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                                <i class="fa fa-trash-o fa-stack-1x fa-inverse"></i>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="m-1">
+
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Opciones
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                <a asp-controller="Email" asp-action="Create" asp-route-UserId="@item.Id" class="btn btn-sm btn-outline-danger dropdown-item">Añadir Email</a>
+                                                                <a asp-controller="Email" asp-action="Index" asp-route-UserId="@item.Id" class="btn btn-sm btn-outline-danger dropdown-item">Ver Correos</a>
+                                                                <div class="dropdown-divider"></div>
+                                                                <a asp-controller="Phone" asp-action="Create" asp-route-UserId="@item.Id" class="btn btn-sm btn-outline-danger dropdown-item">Añadir Telefono</a>
+                                                                <a asp-controller="Phone" asp-action="Index" asp-route-UserId="@item.Id" class="btn btn-sm btn-outline-danger dropdown-item">Ver Telefonos</a>
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

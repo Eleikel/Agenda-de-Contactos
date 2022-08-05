@@ -1,0 +1,42 @@
+﻿@using AgendaTelefonica.Core.Application.ViewModels.Phone;
+@model List<PhoneViewModel>
+@{
+    ViewData["Title"] = "Phones";
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <h2 class="display-6">Lista de Telefonos registrado por @ViewBag.Name </h2>
+
+
+        @foreach (PhoneViewModel item in Model)
+        {
+
+            <div class="col-4">
+                <div class="widget red-bg p-xl">
+                    <h2>@item.UserName @item.UserLastName</h2>
+                    <ul class="list-unstyled m-t-md">
+                        
+                       
+                        <li>
+                            <span class="fa fa-phone m-r-xs"></span>
+                            <label>Contact:</label>
+                            @item.PhoneNumber
+                        </li>
+                    </ul>
+                    <div class="btn-group">
+                        @if (Model.Count() != 1)
+                        {
+                            <a asp-controller="Phone" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-dark">Eliminar</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+
+</div>
+

@@ -1,0 +1,17 @@
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.deps.json
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Core.Application.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Domain.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Core.Application.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\bin\Debug\net5.0\AgendaTelefonica.Domain.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.csproj.CopyComplete
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\refint\AgendaTelefonica.Infrastructure.Persistence.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\AgendaTelefonica.Infrastructure.Persistence.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Infrastructure.Persistence\obj\Debug\net5.0\ref\AgendaTelefonica.Infrastructure.Persistence.dll

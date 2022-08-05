@@ -1,0 +1,15 @@
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\bin\Debug\net5.0\AgendaTelefonica.Core.Application.deps.json
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\bin\Debug\net5.0\AgendaTelefonica.Core.Application.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\bin\Debug\net5.0\AgendaTelefonica.Core.Application.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\bin\Debug\net5.0\AgendaTelefonica.Domain.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\bin\Debug\net5.0\AgendaTelefonica.Domain.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.AssemblyInfoInputs.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.AssemblyInfo.cs
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.csproj.CopyComplete
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\refint\AgendaTelefonica.Core.Application.dll
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\AgendaTelefonica.Core.Application.pdb
+C:\Users\Eleikel\Desktop\Agenda Telefonica\AgendaTelefonica\AgendaTelefonica.Core.Application\obj\Debug\net5.0\ref\AgendaTelefonica.Core.Application.dll
